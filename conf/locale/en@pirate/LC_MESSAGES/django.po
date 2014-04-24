@@ -3055,7 +3055,7 @@ msgstr ""
 #: lms/templates/registration/password_reset_complete.html
 #: lms/templates/registration/password_reset_complete.html
 msgid "Your Password Reset is Complete"
-msgstr ""
+msgstr "Yer Resettin' o' yer Secret Code be Complete"
 
 #: lms/templates/registration/password_reset_complete.html
 msgid ""
@@ -3152,13 +3152,13 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "Password Reset Help"
-msgstr ""
+msgstr "Secret Code Resettin' Help"
 
 #: lms/templates/registration/password_reset_confirm.html
 #: cms/templates/login.html lms/templates/login-sidebar.html
 #: lms/templates/register-sidebar.html
 msgid "Need Help?"
-msgstr ""
+msgstr "Needin' Some Assistance?"
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
@@ -3185,7 +3185,7 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Thanks for using our site!"
-msgstr ""
+msgstr "Thank ye for sailin' with us!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
@@ -3253,7 +3253,7 @@ msgstr ""
 
 #: lms/templates/wiki/delete.html
 msgid "...and more!"
-msgstr ""
+msgstr "...an' more!"
 
 #: lms/templates/wiki/delete.html
 msgid "You are deleting an article. Please confirm."
@@ -3847,7 +3847,7 @@ msgstr ""
 #: cms/templates/overview.html cms/templates/overview.html
 #: lms/templates/vert_module_studio_view.html
 msgid "Drag to reorder"
-msgstr ""
+msgstr "Drag to be reorderin'"
 
 #: cms/templates/container.html
 #: lms/templates/courseware/instructor_dashboard.html
@@ -9925,6 +9925,7 @@ msgstr ""
 #: cms/templates/500.html
 msgid "If the problem persists, please email us at {email_link}."
 msgstr ""
+"If th' problem be persistin', please be sendin' a letter to {email_link}."
 
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 #: cms/templates/activation_invalid.html
@@ -9933,7 +9934,7 @@ msgstr ""
 
 #: cms/templates/activation_active.html
 msgid "Your account is already active"
-msgstr ""
+msgstr "Yer account already be active"
 
 #: cms/templates/activation_active.html
 msgid ""
@@ -10148,7 +10149,7 @@ msgstr ""
 
 #: cms/templates/course_info.html cms/templates/course_info.html
 msgid "Course Updates"
-msgstr ""
+msgstr "Updates fer th' Course"
 
 #: cms/templates/course_info.html
 msgid "New Update"
@@ -10279,11 +10280,11 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Day"
-msgstr ""
+msgstr "Day to be Leavin' th' Port"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Time"
-msgstr ""
+msgstr "Time to be Leavin' th' Port"
 
 #: cms/templates/edit_subsection.html cms/templates/edit_subsection.html
 #: cms/templates/overview.html
@@ -10337,7 +10338,7 @@ msgstr ""
 
 #: cms/templates/error.html
 msgid "The Page You Requested Page Cannot be Found"
-msgstr ""
+msgstr "Th' Page Ye Be Requestin' Cannot be Found"
 
 #: cms/templates/error.html
 msgid ""
@@ -10355,7 +10356,7 @@ msgstr ""
 
 #: cms/templates/error.html
 msgid "The Server Encountered an Error"
-msgstr ""
+msgstr "Th' Server Be Encounterin' Rough Waters"
 
 #: cms/templates/error.html
 msgid ""
@@ -10405,7 +10406,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Course Structure"
-msgstr ""
+msgstr "Structurin' o' the Course"
 
 #: cms/templates/export.html
 msgid "Individual Problems"
@@ -10526,11 +10527,11 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Welcome"
-msgstr ""
+msgstr "Ahoy, matey!"
 
 #: cms/templates/howitworks.html
 msgid "Welcome to"
-msgstr ""
+msgstr "Ahoy, matey!  Welcome aboard"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -10589,7 +10590,7 @@ msgstr ""
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html
 msgid "Learning is More than Just Lectures"
-msgstr ""
+msgstr "Learnin' be More than Just Lecturin'"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -10678,7 +10679,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Sign Up for Studio Today!"
-msgstr ""
+msgstr "Climb Aboard fer Studio Today!"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an edX Course"
@@ -10894,7 +10895,7 @@ msgstr ""
 #: cms/templates/index.html cms/templates/index.html
 #: cms/templates/widgets/header.html
 msgid "My Courses"
-msgstr ""
+msgstr "Me Courses"
 
 #: cms/templates/index.html
 msgid "New Course"
@@ -10981,7 +10982,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "e.g. 2014_T1"
-msgstr ""
+msgstr "e.g. 2014_T1"
 
 #: cms/templates/index.html
 msgid "The term in which your course will run."
@@ -11120,11 +11121,11 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Thanks for signing up, %(name)s!"
-msgstr ""
+msgstr "Thank ye fer signin' up, %(name)s!"
 
 #: cms/templates/index.html
 msgid "We need to verify your email address"
-msgstr ""
+msgstr "We need to be verifyin' yer email address"
 
 #: cms/templates/index.html
 msgid ""
@@ -11423,7 +11424,7 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Your Location"
-msgstr ""
+msgstr "Yer Location"
 
 #: cms/templates/register.html
 msgid "I agree to the {a_start} Terms of Service {a_end}"
@@ -11621,7 +11622,7 @@ msgstr ""
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
 msgid "Course Image"
-msgstr ""
+msgstr "Course Picture"
 
 #: cms/templates/settings.html
 msgid ""
@@ -11667,7 +11668,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Hours of Effort per Week"
-msgstr ""
+msgstr "Hours o' Effort per Week"
 
 #: cms/templates/settings.html
 msgid "Time spent on all course work"
@@ -11705,7 +11706,7 @@ msgstr ""
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Advanced Riggings"
 
 #: cms/templates/settings_advanced.html
 msgid "Your policy changes have been saved."
@@ -11727,7 +11728,7 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html
 msgid "What do advanced settings do?"
-msgstr ""
+msgstr "What do th' advanced riggings do?"
 
 #: cms/templates/settings_advanced.html
 msgid ""
@@ -12283,7 +12284,7 @@ msgstr ""
 #: wiki/forms.py wiki/plugins/attachments/forms.py
 #: wiki/plugins/images/forms.py
 msgid "You are not sure enough!"
-msgstr ""
+msgstr "Ye be not sure enough!"
 
 #: wiki/forms.py
 msgid "While you tried to delete this article, it was modified. TAKE CARE!"
@@ -12524,7 +12525,7 @@ msgstr ""
 
 #: wiki/plugins/attachments/forms.py
 msgid "A short summary of what the file contains"
-msgstr ""
+msgstr "A brief summary o' what the file be containin'"
 
 #: wiki/plugins/attachments/forms.py
 msgid "Yes I am sure..."
@@ -12570,7 +12571,7 @@ msgstr ""
 
 #: wiki/plugins/attachments/views.py wiki/plugins/attachments/views.py
 msgid "Your file could not be saved: %s"
-msgstr ""
+msgstr "Yer file could not be saved, matey: %s"
 
 #: wiki/plugins/attachments/views.py wiki/plugins/attachments/views.py
 msgid ""
@@ -12580,13 +12581,15 @@ msgstr ""
 
 #: wiki/plugins/attachments/views.py
 msgid "%s uploaded and replaces old attachment."
-msgstr ""
+msgstr "%s be uploaded an' replacin' ye old attachment."
 
 #: wiki/plugins/attachments/views.py
 msgid ""
 "Your new file will automatically be renamed to match the file already "
 "present. Files with different extensions are not allowed."
 msgstr ""
+"Yer new file will be automatically renamed t' be matchin' the file already "
+"present.  Files with different extensions be forbidden."
 
 #: wiki/plugins/attachments/views.py
 msgid "Current revision changed for %s."
@@ -12598,11 +12601,11 @@ msgstr ""
 
 #: wiki/plugins/attachments/views.py
 msgid "The file %s was deleted."
-msgstr ""
+msgstr "Th' file %s has been thrown overboard."
 
 #: wiki/plugins/attachments/views.py
 msgid "This article is no longer related to the file %s."
-msgstr ""
+msgstr "This article be no longer related to the file %s."
 
 #: wiki/plugins/attachments/wiki_plugin.py
 msgid "A file was changed: %s"
@@ -12617,6 +12620,8 @@ msgid ""
 "New image %s was successfully uploaded. You can use it by selecting it from "
 "the list of available images."
 msgstr ""
+"Th' new picture %s be successfully uploaded.  Ye can be usin' it by "
+"selectin' it from the list o' available pictures."
 
 #: wiki/plugins/images/forms.py
 msgid "Are you sure?"
@@ -12624,15 +12629,15 @@ msgstr ""
 
 #: wiki/plugins/images/models.py
 msgid "image"
-msgstr ""
+msgstr "picture"
 
 #: wiki/plugins/images/models.py
 msgid "images"
-msgstr ""
+msgstr "pictures"
 
 #: wiki/plugins/images/models.py
 msgid "Image: %s"
-msgstr ""
+msgstr "Picture: %s"
 
 #: wiki/plugins/images/models.py
 msgid "Current revision not set!!"
@@ -12668,11 +12673,11 @@ msgstr ""
 
 #: wiki/plugins/images/wiki_plugin.py
 msgid "Images"
-msgstr ""
+msgstr "Pictures"
 
 #: wiki/plugins/images/wiki_plugin.py
 msgid "An image was added: %s"
-msgstr ""
+msgstr "A picture be added: %s"
 
 #: wiki/plugins/links/wiki_plugin.py
 msgid "Links"
@@ -12692,11 +12697,12 @@ msgstr ""
 
 #: wiki/plugins/notifications/forms.py
 msgid "Your notification settings were updated."
-msgstr ""
+msgstr "Yer notification settings be updated."
 
 #: wiki/plugins/notifications/forms.py
 msgid "Your notification settings were unchanged, so nothing saved."
 msgstr ""
+"Ye changed nothin' with yer notification settings, so nothin' be saved."
 
 #: wiki/plugins/notifications/models.py
 msgid "%(user)s subscribing to %(article)s (%(type)s)"
@@ -12720,7 +12726,7 @@ msgstr ""
 
 #: wiki/views/accounts.py
 msgid "You are no longer logged in. Bye bye!"
-msgstr ""
+msgstr "Ye no longer be logged in.  Fare ye well!"
 
 #: wiki/views/accounts.py
 msgid "You are now logged in! Have fun!"

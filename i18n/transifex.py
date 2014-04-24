@@ -23,13 +23,29 @@ def pull():
     execute('tx pull --mode=reviewed --all')
     clean_translated_locales()
 
+def pull_all_ltr():
+    print("Pulling all translated LTR languages from transifex...")
+    # these languages display right to left
+    # LANGUAGES_BIDI = ("en@rtl", "he", "ar", "fa", "fa-ir", "ur")
+    rtl_langs = ['he', 'ar', 'fa', 'fa_IR', 'ur']
+    ltr_langs = [l for l in CONFIGURATION.translated_locales if l not in rtl_langs]
+    for lang in ltr_langs:
+        print ('rm -rf conf/locale/' + lang)
+        execute('rm -rf conf/locale/' + lang)
+        execute('tx pull -l ' + lang)
 
-def clean_translated_locales():
+    clean_translated_locales(langs=ltr_langs)
+
+
+def clean_translated_locales(langs=None):
     """
     Strips out the warning from all translated po files
     about being an English source file.
     """
-    for locale in CONFIGURATION.translated_locales:
+    locales = CONFIGURATION.translated_locales
+    if langs:
+        locales = langs
+    for locale in locales:
         clean_locale(locale)
 
 
@@ -83,5 +99,14 @@ if __name__ == '__main__':
         push()
     elif args.command == "pull":
         pull()
+    elif args.command == "ltr":
+        pull_all_ltr()
+        print("Now generating langugage files...")
+        print('python i18n/generate.py')
+        execute('python i18n/generate.py')
+        print("Committing translations...")
+        execute('git clean -fdX conf/locale')
+        execute('git add conf/locale')
+        execute('git commit --message="Updated LTR translations" --edit')
     else:
         raise Exception("unknown command ({cmd})".format(cmd=args.command))

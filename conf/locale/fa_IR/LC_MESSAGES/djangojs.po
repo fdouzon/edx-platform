@@ -14,7 +14,6 @@
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
-# arashdehghan <arashdehghan@gmail.com>, 2014
 # djcsaeed <security.registered@gmail.com>, 2013
 # davoudrafati <it.rafati@gmail.com>, 2014
 # saman_is <saman.2791@gmail.com>, 2013
@@ -23,9 +22,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2014-05-13 09:30-0400\n"
-"PO-Revision-Date: 2014-05-11 14:42+0000\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2014-05-02 17:09-0400\n"
+"PO-Revision-Date: 2014-04-30 15:00+0000\n"
+"Last-Translator: davoudrafati <it.rafati@gmail.com>\n"
+=======
+"POT-Creation-Date: 2014-04-22 10:11-0400\n"
+"PO-Revision-Date: 2014-04-23 02:00+0000\n"
 "Last-Translator: sarina <sarina@edx.org>\n"
+>>>>>>> DO NOT MERGE TO MASTER: Unreviewed translations for LTR langs
 "Language-Team: Persian (Iran) (http://www.transifex.com/projects/p/edx-platform/language/fa_IR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +43,7 @@ msgstr ""
 #: cms/static/js/views/modals/edit_xblock.js
 #: common/static/coffee/src/discussion/utils.js
 msgid "OK"
-msgstr ""
+msgstr "بله"
 
 #: cms/static/coffee/src/views/tabs.js cms/static/coffee/src/views/unit.js
 #: cms/static/js/base.js cms/static/js/views/asset.js
@@ -49,11 +54,11 @@ msgstr ""
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Cancel"
-msgstr ""
+msgstr "انصراف"
 
 #: cms/static/js/base.js lms/static/js/verify_student/photocapture.js
 msgid "This link will open in a new browser window/tab"
-msgstr ""
+msgstr "این پیوند در یک پنجره مرورگر / تب جدید باز خواهد شد"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
@@ -61,7 +66,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Hide Annotations"
-msgstr ""
+msgstr "مخفی کردن حاشیه نویسی"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Expand Instructions"
@@ -69,7 +74,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Collapse Instructions"
-msgstr ""
+msgstr "بستن دستورالعمل"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Commentary"
@@ -150,7 +155,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Submit"
-msgstr ""
+msgstr "ارائه "
 
 #. Translators: one clicks this button after one has finished filling out the
 #. grading
@@ -214,7 +219,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
 msgid "Hide Question"
-msgstr ""
+msgstr "مخفی کردن سوال"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
@@ -228,19 +233,19 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/04_video_control.js
 msgid "Pause"
-msgstr ""
+msgstr "مکث"
 
 #: common/lib/xmodule/xmodule/js/src/video/04_video_control.js
 msgid "Play"
-msgstr ""
+msgstr "پخش"
 
 #: common/lib/xmodule/xmodule/js/src/video/04_video_control.js
 msgid "Fill browser"
-msgstr ""
+msgstr "تکمیل مرورگر"
 
 #: common/lib/xmodule/xmodule/js/src/video/04_video_control.js
 msgid "Exit full browser"
-msgstr ""
+msgstr "بستن کامل مرور گر"
 
 #: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
 msgid "HD on"
@@ -253,7 +258,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video position"
-msgstr ""
+msgstr "موقعیت ویدیو"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video ended"
@@ -276,7 +281,7 @@ msgstr[0] ""
 
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
 msgid "Volume"
-msgstr ""
+msgstr "حجم صدا"
 
 #. Translators: Volume level equals 0%.
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
@@ -315,15 +320,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Caption will be displayed when "
-msgstr ""
+msgstr "زمانی که عنوان نمایش داده خواهد شد که"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn on captions"
-msgstr ""
+msgstr "فعال کردن نوشتن شرح تصاویر"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn off captions"
-msgstr ""
+msgstr "غیرفعال کردن نوشتن شرح تصاویر"
 
 #: common/static/coffee/src/discussion/discussion_module_view.js
 #: common/static/coffee/src/discussion/discussion_module_view.js
@@ -341,7 +346,10 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
+<<<<<<< HEAD
 #: common/static/coffee/src/discussion/views/discussion_user_profile_view.js
+=======
+>>>>>>> DO NOT MERGE TO MASTER: Unreviewed translations for LTR langs
 #: common/static/coffee/src/discussion/views/response_comment_view.js
 msgid "Sorry"
 msgstr ""
@@ -377,12 +385,12 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/new_post_view.js
 #: common/static/coffee/src/discussion/views/new_post_view.js
 msgid "…"
-msgstr ""
+msgstr "..."
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
@@ -444,7 +452,7 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/response_comment_show_view.js
 #: common/static/coffee/src/discussion/views/thread_response_show_view.js
 msgid "Report Misuse"
-msgstr ""
+msgstr "گزارش سوء استفاده"
 
 #. Translators: The text between start_sr_span and end_span is not shown
 #. in most browsers but will be read by screen readers.
@@ -462,6 +470,11 @@ msgstr ""
 
 #: common/static/coffee/src/discussion/views/discussion_thread_show_view.js
 msgid "Pin Thread"
+msgstr "پین موضوع"
+
+#: common/static/coffee/src/discussion/views/discussion_thread_view.js
+msgid ""
+"The thread you selected has been deleted. Please select another thread."
 msgstr ""
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
@@ -519,7 +532,7 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/response_comment_show_view.js
 #: common/static/coffee/src/discussion/views/thread_response_show_view.js
 msgid "Community TA"
-msgstr ""
+msgstr " کمک استادان"
 
 #: common/static/coffee/src/discussion/views/response_comment_show_view.js
 #: common/static/coffee/src/discussion/views/response_comment_show_view.js
@@ -598,66 +611,72 @@ msgstr[0] ""
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Available %s"
-msgstr ""
+msgstr "%s در دسترس می باشد"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid ""
 "This is the list of available %s. You may choose some by selecting them in "
 "the box below and then clicking the \"Choose\" arrow between the two boxes."
 msgstr ""
+"این لیست از %s در دسترس است. شما ممکن است برخی با انتخاب آنها در زیر وارد "
+"نمایید و سپس با کلیک بر روی \"انتخاب\" جهت پیکان را بین دو جعبه قرار دهید."
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Type into this box to filter down the list of available %s."
-msgstr ""
+msgstr "تایپ در این جعبه برای فیلتر کردن فهرستی از%s در دسترس است."
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Filter"
-msgstr ""
+msgstr "فیلتر"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Choose all"
-msgstr ""
+msgstr "انتخاب همه"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Click to choose all %s at once."
-msgstr ""
+msgstr "کلیک نمایید تا تمامی %s  همزمان انتخاب گردند."
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Choose"
-msgstr ""
+msgstr "انتخاب"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Chosen %s"
-msgstr ""
+msgstr "%s انتخاب شده"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid ""
 "This is the list of chosen %s. You may remove some by selecting them in the "
 "box below and then clicking the \"Remove\" arrow between the two boxes."
 msgstr ""
+"این لیست از %s در دسترس است. شما ممکن است برخی با انتخاب آنها در زیر وارد "
+"نمایید و سپس با کلیک بر روی \"انتخاب\" جهت پیکان را بین دو جعبه قرار دهید."
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Remove all"
-msgstr ""
+msgstr "حذف همه"
 
 #: lms/static/admin/js/SelectFilter2.js
 msgid "Click to remove all chosen %s at once."
-msgstr ""
+msgstr "جهت حذف تمامی %s گزینه انتخابی کلیک نمایید."
 
 #: lms/static/admin/js/actions.js lms/static/admin/js/actions.min.js
 msgid "%(sel)s of %(cnt)s selected"
 msgid_plural "%(sel)s of %(cnt)s selected"
-msgstr[0] ""
+msgstr[0] "%(sel)s از %(cnt)s انتخاب شده است"
 
 #: lms/static/admin/js/actions.js lms/static/admin/js/actions.min.js
 msgid ""
 "You have unsaved changes on individual editable fields. If you run an "
 "action, your unsaved changes will be lost."
 msgstr ""
+"شما تغییرات ذخیره نشده ای در زمینه های قابل ویرایش را دارا می باشید. اگر شما"
+" یک عمل را اجرا کنید، تغییرات ذخیره نشده شما از بین خواهد رفت."
 
 #: lms/static/admin/js/actions.js lms/static/admin/js/actions.min.js
 msgid ""
@@ -665,6 +684,8 @@ msgid ""
 "individual fields yet. Please click OK to save. You'll need to re-run the "
 "action."
 msgstr ""
+"شما یک عمل را انجام داده اید، اما شما تغییرات خود را ذخیره نکرده اید. لطفا "
+"روی OK کلیک کنید و ذخیره نمایید. شما نیاز به اجرای مجدد عمل دارید."
 
 #: lms/static/admin/js/actions.js lms/static/admin/js/actions.min.js
 msgid ""
@@ -672,6 +693,8 @@ msgid ""
 "fields. You're probably looking for the Go button rather than the Save "
 "button."
 msgstr ""
+"شما یک عمل را انجام داده اید، اما شما تغییرات خود را ذخیره نکرده اید.شما "
+"احتمالا به دنبال دکمه برو هستید و نه دکمه ذخیره."
 
 #. Translators: the names of months, keep the pipe (|) separators.
 #: lms/static/admin/js/calendar.js lms/static/admin/js/dateparse.js
@@ -688,11 +711,11 @@ msgstr ""
 #: lms/static/admin/js/collapse.js lms/static/admin/js/collapse.js.c
 #: lms/static/admin/js/collapse.min.js
 msgid "Show"
-msgstr ""
+msgstr "نمایش"
 
 #: lms/static/admin/js/collapse.js lms/static/admin/js/collapse.min.js
 msgid "Hide"
-msgstr ""
+msgstr "مخفی"
 
 #. Translators: the names of days, keep the pipe (|) separators.
 #: lms/static/admin/js/dateparse.js
@@ -702,48 +725,48 @@ msgstr ""
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Now"
-msgstr ""
+msgstr "اکنون"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Clock"
-msgstr ""
+msgstr "ساعت"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Choose a time"
-msgstr ""
+msgstr "انتخاب زمان"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Midnight"
-msgstr ""
+msgstr "نیمه شب"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "6 a.m."
-msgstr ""
+msgstr "6 صبح"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Noon"
-msgstr ""
+msgstr "صبح"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Today"
-msgstr ""
+msgstr "امروز"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Calendar"
-msgstr ""
+msgstr "تقویم"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Yesterday"
-msgstr ""
+msgstr "دیروز"
 
 #: lms/static/admin/js/admin/DateTimeShortcuts.js
 msgid "Tomorrow"
-msgstr ""
+msgstr "فردا"
 
 #: lms/static/coffee/src/calculator.js
 msgid "Open Calculator"
-msgstr ""
+msgstr "باز کردن ماشین حساب"
 
 #: lms/static/coffee/src/calculator.js
 msgid "Close Calculator"
@@ -751,7 +774,7 @@ msgstr ""
 
 #: lms/static/coffee/src/customwmd.js
 msgid "Preview"
-msgstr ""
+msgstr "پیش نمایش"
 
 #: lms/static/coffee/src/customwmd.js
 msgid "Post body"
@@ -779,7 +802,7 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Loading..."
-msgstr ""
+msgstr "در حال بارگذاری ..."
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error getting student list."
@@ -809,7 +832,7 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Email"
-msgstr ""
+msgstr "پست الکترونیکی"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 #: lms/static/coffee/src/instructor_dashboard/membership.js
@@ -1108,13 +1131,13 @@ msgstr ""
 #. sending email
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Task Type"
-msgstr ""
+msgstr "نوع وظیفه"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Task inputs"
-msgstr ""
+msgstr "ورودی های وظیفه"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -1126,19 +1149,19 @@ msgstr ""
 #. sending email
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Requester"
-msgstr ""
+msgstr "درخواست کننده"
 
 #. Translators: A timestamp of when a task (eg, sending email) was submitted
 #. appears after this
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Submitted"
-msgstr ""
+msgstr "ارائه شده"
 
 #. Translators: The length of a task (eg, sending email) in seconds appears
 #. this
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Duration (sec)"
-msgstr ""
+msgstr "مدت زمان (ثانیه)"
 
 #. Translators: The state (eg, "In progress") of a task (eg, sending email)
 #. appears after this.
@@ -1156,7 +1179,7 @@ msgstr ""
 #. sending email
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Task Progress"
-msgstr ""
+msgstr "پیشرفت وظیفه"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Grades saved.  Fetching the next submission to grade."
@@ -1164,11 +1187,11 @@ msgstr ""
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Problem Name"
-msgstr ""
+msgstr "نام مشکلات"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Graded"
-msgstr ""
+msgstr "دارای رتبه"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Available to Grade"
@@ -1176,11 +1199,11 @@ msgstr ""
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Required"
-msgstr ""
+msgstr "نیازمند"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Progress"
-msgstr ""
+msgstr "پیشرفت"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "Back to problem list"
@@ -1217,7 +1240,7 @@ msgstr ""
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "(Hide)"
-msgstr ""
+msgstr "مخفی"
 
 #: lms/static/coffee/src/staff_grading/staff_grading.js
 msgid "(Show)"
@@ -1324,34 +1347,6 @@ msgstr ""
 msgid "Heading"
 msgstr ""
 
-#: lms/static/js/staff_debug_actions.js
-msgid "Unknown Error Occurred."
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Successfully reset the attempts for user {user}"
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Failed to reset attempts."
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Successfully deleted student state for user {user}"
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Failed to delete student state."
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Successfully rescored problem for user {user}"
-msgstr ""
-
-#: lms/static/js/staff_debug_actions.js
-msgid "Failed to rescore problem."
-msgstr ""
-
 #: lms/templates/class_dashboard/all_section_metrics.js
 #: lms/templates/class_dashboard/all_section_metrics.js
 msgid "Unable to retrieve data, please try again later."
@@ -1375,12 +1370,11 @@ msgstr ""
 #: cms/static/coffee/src/views/unit.js
 #: cms/static/coffee/src/xblock/cms.runtime.v1.js
 #: cms/static/js/models/section.js cms/static/js/utils/drag_and_drop.js
-#: cms/static/js/views/asset.js cms/static/js/views/container.js
-#: cms/static/js/views/course_info_handout.js
+#: cms/static/js/views/asset.js cms/static/js/views/course_info_handout.js
 #: cms/static/js/views/course_info_update.js cms/static/js/views/overview.js
 #: cms/static/js/views/xblock_editor.js
 msgid "Saving&hellip;"
-msgstr ""
+msgstr "ذخیره&hellip;"
 
 #: cms/static/coffee/src/views/tabs.js
 msgid "Delete Component Confirmation"
@@ -1396,7 +1390,7 @@ msgstr ""
 #: cms/static/js/base.js cms/static/js/views/course_info_update.js
 #: cms/static/js/views/pages/container.js
 msgid "Deleting&hellip;"
-msgstr ""
+msgstr "حذف کردن&hellip;"
 
 #: cms/static/coffee/src/views/unit.js
 msgid "Adding&hellip;"
@@ -1420,19 +1414,19 @@ msgstr ""
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
-msgstr ""
+msgstr "این پیوند در یک پنجره معین باز خواهد شد"
 
 #: cms/static/js/base.js
 msgid "Delete this "
-msgstr ""
+msgstr "حذف این مورد"
 
 #: cms/static/js/base.js
 msgid "Deleting this "
-msgstr ""
+msgstr "حدف کردن این مورد"
 
 #: cms/static/js/base.js
 msgid "Yes, delete this "
-msgstr ""
+msgstr "بله این مورد را حذف کن"
 
 #: cms/static/js/index.js
 msgid "Please do not use any spaces in this field."
@@ -1440,71 +1434,75 @@ msgstr ""
 
 #: cms/static/js/index.js
 msgid "Please do not use any spaces or special characters in this field."
-msgstr ""
+msgstr "لطفا هیچ فاصله یا کاراکتر خاصی در این زمینه استفاده نکنید."
 
 #: cms/static/js/index.js
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than 65 characters."
 msgstr ""
+"طول ترکیبی از سازمان، تعداد دوره، و البته اجرا نمی تواند بیش از 65 کاراکتر "
+"باشد."
 
 #: cms/static/js/index.js
 msgid "Required field."
-msgstr ""
+msgstr "ضمینه های مورد نیاز."
 
 #: cms/static/js/sock.js
 msgid "Hide Studio Help"
-msgstr ""
+msgstr "مخفی کردن راهنمای استودیو"
 
 #: cms/static/js/sock.js
 msgid "Looking for Help with Studio?"
-msgstr ""
+msgstr "دنبال کمک به استودیو می باشید؟"
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
-msgstr ""
+msgstr "شما باید یک نام اختصاص دهید"
 
 #: cms/static/js/models/uploads.js
 msgid ""
 "Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
 "<%= fileExtensions %> to upload."
 msgstr ""
+"فقط فایل های <%= fileTypes %> می توانند بارگذاری شوند. لطفاً قسمت بارگذاری "
+"فایل را <%= fileExtensions %> در قسمت بارگذاری انتخاب نمایید."
 
 #: cms/static/js/models/uploads.js
 msgid "or"
-msgstr ""
+msgstr "یا"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course must have an assigned start date."
-msgstr ""
+msgstr "این دوره باید تاریخ شروع اختصاص یافته داشته باشد."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course end date cannot be before the course start date."
-msgstr ""
+msgstr "تاریخ پایان دوره نمی تواند قبل از تاریخ شروع دوره باشد."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The course start date cannot be before the enrollment start date."
-msgstr ""
+msgstr "تاریخ شروع نمی تواند قبل از تاریخ شروع ثبت نام باشد."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment start date cannot be after the enrollment end date."
-msgstr ""
+msgstr "تاریخ شروع ثبت نام نمی تواند پس از تاریخ پایان ثبت نام باشد"
 
 #: cms/static/js/models/settings/course_details.js
 msgid "The enrollment end date cannot be after the course end date."
-msgstr ""
+msgstr "تاریخ پایان ثبت نام نمی تواند پس از تاریخ پایان دوره باشد."
 
 #: cms/static/js/models/settings/course_details.js
 msgid "Key should only contain letters, numbers, _, or -"
-msgstr ""
+msgstr "کلید باید فقط از حروف، اعداد، _ و یا - باشد"
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "There's already another assignment type with this name."
-msgstr ""
+msgstr "در حال حاضر یکی دیگر از انواع تکلیف با این نام وجود دارد."
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer between 0 and 100."
-msgstr ""
+msgstr "لطفا یک عدد صحیح بین 0 و 100 را وارد کنید."
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer greater than 0."
@@ -1516,15 +1514,15 @@ msgstr ""
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Cannot drop more <% attrs.types %> than will assigned."
-msgstr ""
+msgstr "نمی توان بیشتر از میزان<% attrs.types %> اختصاص یافته استفاده کرد"
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
-msgstr ""
+msgstr "مهلت باید در فرمت HH:MM مشخص شده باشد."
 
 #: cms/static/js/views/asset.js
 msgid "Delete File Confirmation"
-msgstr ""
+msgstr "حذف تأییدیه فایل"
 
 #: cms/static/js/views/asset.js
 msgid ""
@@ -1532,33 +1530,40 @@ msgid ""
 "\n"
 "Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
 msgstr ""
+"آیا شما مطمئن هستید که می خواهید این آیتم را حذف کنید. این عمل برگشت پذیر نخواهد بود!\n"
+"\n"
+"همچنین هر یک از مطالب یا لینک یا اشاره به این آیتم دیگر کار نمی کنند (مثل تصاویر و یا لینکهای میانبر)"
 
 #: cms/static/js/views/asset.js cms/static/js/views/show_textbook.js
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: cms/static/js/views/asset.js
 msgid "Your file has been deleted."
-msgstr ""
+msgstr "فایل مورد نظر شما حذف شده است."
 
 #: cms/static/js/views/assets.js
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: cms/static/js/views/assets.js
 msgid "Date Added"
-msgstr ""
+msgstr "تاریخ اضافه شدن"
 
 #: cms/static/js/views/course_info_update.js
 msgid "Are you sure you want to delete this update?"
-msgstr ""
+msgstr "آیا مطمئن هستید که می خواهید این بروز رسانی را حذف کنید؟"
 
 #: cms/static/js/views/course_info_update.js
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "این عمل قابل بازگشت نیست"
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Upload a new PDF to “<%= name %>”"
+msgstr "بارگذاری فایلPDF  جدید در“<%= name %>”"
+
+#: cms/static/js/views/edit_chapter.js
+msgid "Please select a PDF file to upload."
 msgstr ""
 
 #: cms/static/js/views/edit_chapter.js
@@ -1568,17 +1573,19 @@ msgstr ""
 #: cms/static/js/views/edit_textbook.js
 #: cms/static/js/views/overview_assignment_grader.js
 msgid "Saving"
-msgstr ""
+msgstr "ذخیره کردن"
 
 #: cms/static/js/views/import.js
 msgid "There was an error with the upload"
-msgstr ""
+msgstr "خطایی در بارگذاری وجود دارد"
 
 #: cms/static/js/views/import.js
 msgid ""
 "File format not supported. Please upload a file with a <code>tar.gz</code> "
 "extension."
 msgstr ""
+"فرمت فایل پشتیبانی نمی شود. لطفا یک فایل را با  فرمت <code>tar.gz</code> "
+"بارگذاری کنید."
 
 #: cms/static/js/views/metadata.js
 msgid "Upload File"
@@ -1586,11 +1593,11 @@ msgstr ""
 
 #: cms/static/js/views/overview.js
 msgid "Collapse All Sections"
-msgstr ""
+msgstr "جمع کردن همه انتخاب شده ها"
 
 #: cms/static/js/views/overview.js
 msgid "Expand All Sections"
-msgstr ""
+msgstr "گسترش تمامی انتخاب شده ها"
 
 #: cms/static/js/views/overview.js
 msgid "Release date:"
@@ -1598,7 +1605,7 @@ msgstr ""
 
 #: cms/static/js/views/overview.js
 msgid "{month}/{day}/{year} at {hour}:{minute} UTC"
-msgstr ""
+msgstr "{month}/{day}/{year} در{hour}:{minute} ساعت هماهنگ جهانی"
 
 #: cms/static/js/views/overview.js
 msgid "Edit section release date"
@@ -1606,50 +1613,49 @@ msgstr ""
 
 #: cms/static/js/views/overview_assignment_grader.js
 msgid "Not Graded"
+msgstr "بدون طبقه بندی"
+
+#: cms/static/js/views/paging.js
+msgid "ascending"
 msgstr ""
 
-#. Translators: sample result: "Showing 0-9 out of 25 total, sorted by Date
-#. Added ascending"
+#: cms/static/js/views/paging.js
+msgid "descending"
+msgstr ""
+
 #: cms/static/js/views/paging_header.js
 msgid ""
-"Showing %(current_item_range)s out of %(total_items_count)s, sorted by "
-"%(sort_name)s ascending"
-msgstr ""
-
-#. Translators: sample result: "Showing 0-9 out of 25 total, sorted by Date
-#. Added descending"
-#: cms/static/js/views/paging_header.js
-msgid ""
-"Showing %(current_item_range)s out of %(total_items_count)s, sorted by "
-"%(sort_name)s descending"
-msgstr ""
-
-#. Translators: turns into "25 total" to be used in other sentences, e.g.
-#. "Showing 0-9 out of 25 total".
-#: cms/static/js/views/paging_header.js
-msgid "%(total_items)s total"
+"Showing %(current_span)s%(start)s-%(end)s%(end_span)s out of "
+"%(total_span)s%(total)s total%(end_span)s, sorted by "
+"%(order_span)s%(sort_order)s%(end_span)s %(sort_direction)s"
 msgstr ""
 
 #: cms/static/js/views/section_edit.js
 msgid "Your change could not be saved"
-msgstr ""
+msgstr "تغییرات شما ذخیره نشد!"
 
 #: cms/static/js/views/section_edit.js
 msgid "Return and resolve this issue"
-msgstr ""
+msgstr "بازگشت به حل این موضوع"
 
 #: cms/static/js/views/show_textbook.js
 msgid "Delete “<%= name %>”?"
-msgstr ""
+msgstr "“<%= name %>” حذف گردد؟"
 
 #: cms/static/js/views/show_textbook.js
 msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
 msgstr ""
+"حذف یک کتاب درسی نمی تواند قابل بازگشت باشد و یک بار حذف هر گونه اشاره به آن"
+" پیمایش دروس شما نیز حذف خواهد شد."
 
 #: cms/static/js/views/show_textbook.js
 msgid "Deleting"
+msgstr "حذف کردن"
+
+#: cms/static/js/views/uploads.js
+msgid "Upload"
 msgstr ""
 
 #: cms/static/js/views/uploads.js
@@ -1658,31 +1664,53 @@ msgstr ""
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
-msgstr ""
+msgstr "متأسفیم، خطایی وجود دارد"
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes"
-msgstr ""
+msgstr "شما تغییراتی ایجاد نموده اید"
 
 #: cms/static/js/views/validation.js
 msgid "Your changes will not take effect until you save your progress."
 msgstr ""
+"تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد."
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
-msgstr ""
+msgstr "شما تغییراتی ایجاد نموده اید، اما خطاهایی وجود دارد"
 
 #: cms/static/js/views/validation.js
 msgid ""
 "Please address the errors on this page first, and then save your progress."
 msgstr ""
+"لطفا اول، به اشتباهات در این صفحه رسیدگی و سپس پیشرفت خود را ذخیره نمایید . "
 
 #: cms/static/js/views/validation.js
 msgid "Save Changes"
-msgstr ""
+msgstr "ذخیره تغییرات"
 
 #: cms/static/js/views/validation.js
 msgid "Your changes have been saved."
+msgstr "تغییرات شما ذخیره شد."
+
+#: cms/static/js/views/xblock_editor.js
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: cms/static/js/views/xblock_editor.js
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: cms/static/js/views/modals/base_modal.js
+msgid "Save"
+msgstr "ذخیره"
+
+#: cms/static/js/views/modals/edit_xblock.js
+msgid "Component"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js
+msgid "Editing: %(title)s"
 msgstr ""
 
 #: cms/static/js/views/xblock_editor.js
@@ -1710,10 +1738,12 @@ msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
 msgstr ""
+"تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد. "
+"مراقبت با کلید و فرمت کردن مقدار، به عنوان معتبرسازی اجرا نمی شود."
 
 #: cms/static/js/views/settings/advanced.js
 msgid "Your policy changes have been saved."
-msgstr ""
+msgstr "تغییر سیاست شما ذخیره شده است."
 
 #: cms/static/js/views/settings/advanced.js
 msgid ""
@@ -1721,13 +1751,26 @@ msgid ""
 "currently in place yet. If you are having difficulties, please review your "
 "policy pairs."
 msgstr ""
+"لطفاً توجه داشته باشید که سیاست های اصلی و جفت داده ها در محل مناسب خود قرار"
+" ندارند. اگر شما دارای مشکلی می باشید می توانید، سیاست جفتی ها را مرور "
+"فرمایید."
 
 #: cms/static/js/views/settings/main.js
 msgid "Upload your course image."
-msgstr ""
+msgstr "تصویر دوره خود را آپلود کنید."
 
 #: cms/static/js/views/settings/main.js
 msgid "Files must be in JPEG or PNG format."
+msgstr "فایل ها باید با  فرمت JPEG یا PNG باشد."
+
+#: cms/static/js/views/video/translations_editor.js
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr ""
+
+#: cms/static/js/views/video/translations_editor.js
+msgid "Upload translation"
 msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js

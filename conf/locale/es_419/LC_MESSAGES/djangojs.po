@@ -565,6 +565,8 @@ msgstr "¿Está seguro de que desea borrar esta publicación?"
 #: common/static/coffee/src/discussion/views/discussion_user_profile_view.js
 msgid "We had some trouble loading the page you requested. Please try again."
 msgstr ""
+"Ocurrió un problema al cargar la página solicitada. Por favor intente "
+"nuevamente."
 
 #: common/static/coffee/src/discussion/views/response_comment_show_view.js
 msgid "anonymous"

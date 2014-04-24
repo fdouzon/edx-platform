@@ -65,7 +65,7 @@ msgstr ""
 
 #: common/djangoapps/course_modes/views.py common/djangoapps/student/views.py
 msgid "Enrollment is closed"
-msgstr ""
+msgstr "Inscrierea este inchisa"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment mode not supported"
@@ -154,11 +154,11 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Course id not specified"
-msgstr ""
+msgstr "ID-ul cursului nu a fost specificat"
 
 #: common/djangoapps/student/views.py
 msgid "Course id is invalid"
-msgstr ""
+msgstr "ID-ul cursului nu este valid"
 
 #: common/djangoapps/student/views.py
 #: lms/templates/courseware/course_about.html
@@ -167,11 +167,11 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "You are not enrolled in this course"
-msgstr ""
+msgstr "Nu esti inscris la acest curs"
 
 #: common/djangoapps/student/views.py
 msgid "Enrollment action is invalid"
-msgstr ""
+msgstr "Actiunea de inscriere nu este valida"
 
 #. Translators: provider_name is the name of an external, third-party user
 #. authentication service (like
@@ -186,6 +186,8 @@ msgstr ""
 #: common/djangoapps/student/views.py
 msgid "There was an error receiving your login information. Please email us."
 msgstr ""
+"Nu au putut fi obtinute informatiile tale de autentificare. Te rog sa ne "
+"trimiti un email."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -206,13 +208,15 @@ msgstr ""
 
 #: common/djangoapps/student/views.py lms/templates/provider_login.html
 msgid "Email or password is incorrect."
-msgstr ""
+msgstr "Adresa de email sau parola sunt incorecte."
 
 #: common/djangoapps/student/views.py
 msgid ""
 "This account has not been activated. We have sent another activation "
 "message. Please check your e-mail for the activation instructions."
 msgstr ""
+"Acest cont nu a fost activat. Am trimis inca un email de activare. Te rog sa"
+" verifici email-urile tale pentru instructiunile de activare a contului."
 
 #: common/djangoapps/student/views.py
 msgid "Please enter a username"
@@ -240,23 +244,23 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "An account with the Public Username '{username}' already exists."
-msgstr ""
+msgstr "Un cont cu numele de utilizator '{username}' exista deja."
 
 #: common/djangoapps/student/views.py
 msgid "An account with the Email '{email}' already exists."
-msgstr ""
+msgstr "Un cont cu adresa de email '{email}' exista deja."
 
 #: common/djangoapps/student/views.py
 msgid "Error (401 {field}). E-mail us."
-msgstr ""
+msgstr "Eroare (401 {camp}). Te rog sa ne trimit un email."
 
 #: common/djangoapps/student/views.py
 msgid "To enroll, you must follow the honor code."
-msgstr ""
+msgstr "Pentru a te inscrie, trebuie sa respecti codul de onoare."
 
 #: common/djangoapps/student/views.py
 msgid "You must accept the terms of service."
-msgstr ""
+msgstr "Trebuie sa accepti termenii serviciului."
 
 #: common/djangoapps/student/views.py
 msgid "Username must be minimum of two characters long"
@@ -320,11 +324,13 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Valid e-mail is required."
-msgstr ""
+msgstr "Trebuie o adresa de email corecta"
 
 #: common/djangoapps/student/views.py
 msgid "Username should only consist of A-Z and 0-9, with no spaces."
 msgstr ""
+"Numele de utilizator trebuie sa contina doar caracterele A-Z si 0-9, fara "
+"spatii."
 
 #: common/djangoapps/student/views.py common/djangoapps/student/views.py
 msgid "Password: "
@@ -332,11 +338,13 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Could not send activation e-mail."
-msgstr ""
+msgstr "Nu a putut fi trimis un email de activare."
 
 #: common/djangoapps/student/views.py
 msgid "Unknown error. Please e-mail us to let us know how it happened."
 msgstr ""
+"Eroare necunoscuta. Te rog sa ne contactezi prin email pentru a ne spune ce "
+"s-a intamplat."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -356,35 +364,35 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "No inactive user with this e-mail exists"
-msgstr ""
+msgstr "Nu exista utilizatori inactivi cu acest email"
 
 #: common/djangoapps/student/views.py
 msgid "Unable to send reactivation email"
-msgstr ""
+msgstr "Nu s-a putut trimite email de reactivare"
 
 #: common/djangoapps/student/views.py
 msgid "Invalid password"
-msgstr ""
+msgstr "Parola incorecta"
 
 #: common/djangoapps/student/views.py
 msgid "Valid e-mail address required."
-msgstr ""
+msgstr "Trebuie o adresa de e-mail valida."
 
 #: common/djangoapps/student/views.py
 msgid "An account with this e-mail already exists."
-msgstr ""
+msgstr "Exista deja un cont cu acest email."
 
 #: common/djangoapps/student/views.py
 msgid "Old email is the same as the new email."
-msgstr ""
+msgstr "Adresa de email veche este identica cu adresa noua de email."
 
 #: common/djangoapps/student/views.py
 msgid "Name required"
-msgstr ""
+msgstr "Lipseste numele"
 
 #: common/djangoapps/student/views.py common/djangoapps/student/views.py
 msgid "Invalid ID"
-msgstr ""
+msgstr "ID incorect"
 
 #. Translators: the translation for "LONG_DATE_FORMAT" must be a format
 #. string for formatting dates in a long form.  For example, the
@@ -799,7 +807,7 @@ msgstr ""
 
 #: common/lib/capa/capa/inputtypes.py common/lib/capa/capa/inputtypes.py
 msgid "unanswered"
-msgstr ""
+msgstr "fara raspuns"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "processing"
@@ -1414,27 +1422,27 @@ msgstr ""
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 msgid "Navigation"
-msgstr ""
+msgstr "Navigare"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 msgid "About these documents"
-msgstr ""
+msgstr "Despre aceste documente"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 msgid "Index"
-msgstr ""
+msgstr "Index"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 #: lms/templates/wiki/plugins/attachments/index.html
 #: lms/templates/discussion/_thread_list_template.html
 msgid "Search"
-msgstr ""
+msgstr "Cauta"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html
 #: lms/templates/static_templates/copyright.html
 #: lms/templates/static_templates/copyright.html
 msgid "Copyright"
-msgstr ""
+msgstr "Drepturi de autor"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid ""
@@ -1805,16 +1813,18 @@ msgstr ""
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "allowed file types are '%(file_types)s'"
-msgstr ""
+msgstr "tipurile de fisiere permise sunt '%(file_types)s'"
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "maximum upload file size is %(file_size)sK"
-msgstr ""
+msgstr "marimea maxima pentru fisierul incarcat este %(file_size)sK"
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
+"Eroare la incarcarea fisierului. Te rog sa contactezi administratorul site-"
+"ului. Iti multumesc."
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Good"
@@ -2095,10 +2105,13 @@ msgid ""
 "classes, it may take up to an hour (or more, if other courses are "
 "simultaneously sending email) to send all emails."
 msgstr ""
+"Email-ul tau a fost programat pentru expediere. Pentru clasele mai mari "
+"acest proces poate sa dureze pana la o ora (sau mai mult, daca alte cursuri "
+"trimit email-uri simultan) pentru a trimite toate email-urile."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Your email was successfully queued for sending."
-msgstr ""
+msgstr "Email-ul a fost programat pentru expediere."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Grades from {course_id}"
@@ -3156,10 +3169,12 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at edx.org."
 msgstr ""
+"Primesti acesti email pentru ca ai cerut resetarea parolei pentru contul tau"
+" de pe edx.org."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
-msgstr ""
+msgstr "Te rog sa mergi la pagina urmatoare si sa alegi o parola noua:"
 
 #: lms/templates/registration/password_reset_email.html
 msgid ""
@@ -3169,15 +3184,15 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Thanks for using our site!"
-msgstr ""
+msgstr "Iti multumesc pentru folosirea site-ului nostru!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
-msgstr ""
+msgstr "Echipa edX"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
-msgstr ""
+msgstr "Ultima modificare:"
 
 #: lms/templates/wiki/article.html
 msgid "See all children"
@@ -3185,25 +3200,25 @@ msgstr ""
 
 #: lms/templates/wiki/article.html
 msgid "This article was last modified:"
-msgstr ""
+msgstr "Acest articol a fost modificat ultima oara:"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/create.html.py
 msgid "Add new article"
-msgstr ""
+msgstr "Adauga articol nou"
 
 #: lms/templates/wiki/create.html
 msgid "Create article"
-msgstr ""
+msgstr "Creeaza articol"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/delete.html
 #: lms/templates/wiki/delete.html.py
 msgid "Go back"
-msgstr ""
+msgstr "Inapoi"
 
 #: lms/templates/wiki/delete.html lms/templates/wiki/delete.html.py
 #: lms/templates/wiki/edit.html
 msgid "Delete article"
-msgstr ""
+msgstr "Sterge articol"
 
 #: lms/templates/wiki/delete.html
 #: lms/templates/wiki/plugins/attachments/index.html
@@ -3213,35 +3228,39 @@ msgstr ""
 #: lms/templates/discussion/_underscore_templates.html
 #: lms/templates/discussion/mustache/_inline_thread_show.mustache
 msgid "Delete"
-msgstr ""
+msgstr "Sterge"
 
 #: lms/templates/wiki/delete.html
 msgid "You cannot delete a root article."
-msgstr ""
+msgstr "Nu poti sterge un articol de baza."
 
 #: lms/templates/wiki/delete.html
 msgid ""
 "You cannot delete this article because you do not have permission to delete "
 "articles with children. Try to remove the children manually one-by-one."
 msgstr ""
+"Nu poti sterge acest articol pentru ca nu ai dreptul de a sterge articole cu"
+" sub-articole. Incearca sa stergi sub-articolele manual."
 
 #: lms/templates/wiki/delete.html
 msgid ""
 "You are deleting an article. This means that its children will be deleted as"
 " well. If you choose to purge, children will also be purged!"
 msgstr ""
+"Stergi un articol. Asta inseamna ca sub-articolele vor fi sterse. Daca "
+"activezi curatenia, sub-articolele vor fi si ele curatate."
 
 #: lms/templates/wiki/delete.html
 msgid "Articles that will be deleted"
-msgstr ""
+msgstr "Articole care vor fi sterse"
 
 #: lms/templates/wiki/delete.html
 msgid "...and more!"
-msgstr ""
+msgstr "...si multe altele!"
 
 #: lms/templates/wiki/delete.html
 msgid "You are deleting an article. Please confirm."
-msgstr ""
+msgstr "Stergi un articol. Te rog sa confirmi."
 
 #: lms/templates/wiki/edit.html cms/templates/component.html
 #: cms/templates/studio_xblock_wrapper.html
@@ -3252,15 +3271,20 @@ msgstr ""
 #: lms/templates/discussion/mustache/_inline_thread_show.mustache
 #: lms/templates/wiki/includes/article_menu.html
 msgid "Edit"
-msgstr ""
+msgstr "Editeaza"
 
 #: lms/templates/wiki/edit.html lms/templates/wiki/edit.html.py
 msgid "Save changes"
-msgstr ""
+msgstr "Salveaza modificarile"
 
 #: lms/templates/wiki/edit.html cms/templates/unit.html
+#, fuzzy
 msgid "Preview"
 msgstr ""
+"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"PrevizualizeazaPrevizualizeaza\n"
+"#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#\n"
+"Previzualizeaza"
 
 #. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
@@ -3299,11 +3323,11 @@ msgstr ""
 
 #: lms/templates/wiki/edit.html
 msgid "Back to editor"
-msgstr ""
+msgstr "Inapoi la editor"
 
 #: lms/templates/wiki/history.html
 msgid "History"
-msgstr ""
+msgstr "Istoric"
 
 #: lms/templates/wiki/history.html
 msgid ""
@@ -3829,7 +3853,7 @@ msgstr ""
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Loading..."
-msgstr ""
+msgstr "Se incarca..."
 
 #. Translators: this is a verb describing the action of viewing more details
 #: cms/templates/container_xblock_component.html
@@ -3857,7 +3881,7 @@ msgstr ""
 #: lms/templates/discussion/mustache/_inline_discussion_cohorted.mustache
 #: lms/templates/verify_student/face_upload.html
 msgid "Cancel"
-msgstr ""
+msgstr "Anuleaza"
 
 #: cms/templates/index.html
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
@@ -4114,7 +4138,7 @@ msgstr ""
 #: lms/templates/annotatable.html lms/templates/textannotation.html
 #: lms/templates/videoannotation.html
 msgid "Collapse Instructions"
-msgstr ""
+msgstr "Ascunde instructiuni"
 
 #: lms/templates/annotatable.html
 msgid "Guided Discussion"
@@ -4122,7 +4146,7 @@ msgstr ""
 
 #: lms/templates/annotatable.html
 msgid "Hide Annotations"
-msgstr ""
+msgstr "Ascunde adnotari"
 
 #: lms/templates/contact.html lms/templates/static_templates/about.html
 #: lms/templates/static_templates/about.html
@@ -5620,11 +5644,11 @@ msgstr ""
 
 #: lms/templates/video.html
 msgid "Video position"
-msgstr ""
+msgstr "Pozitie videoclip"
 
 #: lms/templates/video.html
 msgid "Play"
-msgstr ""
+msgstr "Porneste"
 
 #: lms/templates/video.html
 msgid "Speeds"
@@ -5636,19 +5660,19 @@ msgstr ""
 
 #: lms/templates/video.html
 msgid "Volume"
-msgstr ""
+msgstr "Volum"
 
 #: lms/templates/video.html
 msgid "Fill browser"
-msgstr ""
+msgstr "Umple browser-ul"
 
 #: lms/templates/video.html
 msgid "HD off"
-msgstr ""
+msgstr "HD dezactivat"
 
 #: lms/templates/video.html lms/templates/video.html
 msgid "Turn off captions"
-msgstr ""
+msgstr "Dezactiveaza subtitlurile"
 
 #: lms/templates/video.html
 msgid "Skip to end of transcript."
@@ -6003,7 +6027,7 @@ msgstr ""
 
 #: lms/templates/courseware/courseware.html
 msgid "Open Calculator"
-msgstr ""
+msgstr "Deschide calculator"
 
 #: lms/templates/courseware/courseware.html
 msgid "Calculator Input Field"
@@ -6943,7 +6967,7 @@ msgstr ""
 
 #: lms/templates/discussion/_discussion_module.html
 msgid "Show Discussion"
-msgstr ""
+msgstr "Afiseaza Discutie"
 
 #: lms/templates/discussion/_discussion_module_studio.html
 msgid "To view live discussions, click Preview or View Live in Unit Settings."
@@ -7017,7 +7041,7 @@ msgstr ""
 #: lms/templates/discussion/mustache/_inline_discussion_cohorted.mustache
 #: wiki/forms.py wiki/forms.py wiki/forms.py
 msgid "Title"
-msgstr ""
+msgstr "Titlu"
 
 #: lms/templates/discussion/_inline_new_post.html
 #: lms/templates/discussion/_new_post.html
@@ -7055,7 +7079,7 @@ msgstr ""
 
 #: lms/templates/discussion/_similar_posts.html
 msgid "Hide"
-msgstr ""
+msgstr "Ascunde"
 
 #: lms/templates/discussion/_thread_list_template.html
 msgid "Discussion Home"
@@ -12099,19 +12123,19 @@ msgstr ""
 
 #: wiki/admin.py wiki/models/article.py
 msgid "created"
-msgstr ""
+msgstr "a fost creat"
 
 #: wiki/forms.py
 msgid "Only localhost... muahahaha"
-msgstr ""
+msgstr "Doar localhost..."
 
 #: wiki/forms.py
 msgid "Initial title of the article. May be overridden with revision titles."
-msgstr ""
+msgstr "Titlul initial al articolului. Poate fi suprascris mai tarziu."
 
 #: wiki/forms.py
 msgid "Type in some contents"
-msgstr ""
+msgstr "Adauga ceva continut"
 
 #: wiki/forms.py
 msgid ""
@@ -12122,16 +12146,17 @@ msgstr ""
 
 #: wiki/forms.py wiki/forms.py
 msgid "Contents"
-msgstr ""
+msgstr "Continut"
 
 #: wiki/forms.py wiki/forms.py
 msgid "Summary"
-msgstr ""
+msgstr "Rezumat"
 
 #: wiki/forms.py
 msgid ""
 "Give a short reason for your edit, which will be stated in the revision log."
 msgstr ""
+"Adauga un motiv pentru editare, va fi afisat in istoricul schimbarilor"
 
 #: wiki/forms.py
 msgid ""
@@ -12139,18 +12164,20 @@ msgid ""
 "have been automatically merged with the new contents. Please review the text"
 " below."
 msgstr ""
+"In timp ce tu editati, cineva a revizuit. Continutul creat de tine a fost "
+"unit automat cu celalalt continut. Te rog sa verifici textul de mai jos."
 
 #: wiki/forms.py
 msgid "No changes made. Nothing to save."
-msgstr ""
+msgstr "Nu au fost facute schimbari. Nu este nimic de salvat."
 
 #: wiki/forms.py
 msgid "Select an option"
-msgstr ""
+msgstr "Alege o optiune"
 
 #: wiki/forms.py
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #: wiki/forms.py
 msgid ""

@@ -7018,7 +7018,7 @@ msgstr ""
 #: lms/templates/discussion/mustache/_inline_discussion_cohorted.mustache
 #: wiki/forms.py wiki/forms.py wiki/forms.py
 msgid "Title"
-msgstr ""
+msgstr "Naslov"
 
 #: lms/templates/discussion/_inline_new_post.html
 #: lms/templates/discussion/_new_post.html
@@ -12100,19 +12100,19 @@ msgstr "Ovaj ključ je string."
 
 #: wiki/admin.py wiki/models/article.py
 msgid "created"
-msgstr ""
+msgstr "kreirano"
 
 #: wiki/forms.py
 msgid "Only localhost... muahahaha"
-msgstr ""
+msgstr "Samo localhost... muahahaha"
 
 #: wiki/forms.py
 msgid "Initial title of the article. May be overridden with revision titles."
-msgstr ""
+msgstr "Početni naslov članka. Moguće ga je izmijeniti kasnijim revizijama."
 
 #: wiki/forms.py
 msgid "Type in some contents"
-msgstr ""
+msgstr "Vrsta u nekim sadržajima"
 
 #: wiki/forms.py
 msgid ""

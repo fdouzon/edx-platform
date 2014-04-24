@@ -1056,7 +1056,7 @@ msgstr "客户端响应：检查函数返回无效字典！"
 #. translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "oops in SymbolicResponse (cfn) error {error_msg}"
-msgstr ""
+msgstr "啊哦SymbolicResponse (cfn) 发生错误 {error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "No answer provided."
@@ -1546,6 +1546,7 @@ msgid ""
 "The URL for your video. This can be a YouTube URL or a link to an .mp4, "
 ".ogg, or .webm video file hosted elsewhere on the Internet."
 msgstr ""
+"该地址指向视频链接。这可能是一个YouTube的网址或者一个存储于其他服务器的 .mp4, .ogg, 或者.webm 格式视频的链接地址。"
 
 #. Translators: This is a type of file used for captioning in the video
 #. player.
@@ -5697,7 +5698,7 @@ msgstr "工作人员调试"
 
 #: lms/templates/staff_problem_info.html
 msgid "Actions"
-msgstr ""
+msgstr "动作"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -5706,7 +5707,7 @@ msgstr "重置学生的尝试次数"
 
 #: lms/templates/staff_problem_info.html
 msgid "Delete Student State"
-msgstr ""
+msgstr "删除学生状态"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -6462,7 +6463,7 @@ msgstr "课程讲义"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Legacy Instructor Dashboard"
-msgstr ""
+msgstr "传统教师面板"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
@@ -6471,7 +6472,7 @@ msgstr "在职员界面查看课程"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Back To Instructor Dashboard"
-msgstr ""
+msgstr "返回教师面板"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
@@ -6483,17 +6484,17 @@ msgstr "授课教师面板"
 msgid ""
 "You are using the legacy instructor dashboard, which we will retire in the "
 "near future."
-msgstr ""
+msgstr "您现在正在使用传统教师面板，传统界面将于不久后淘汰。"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Return to the Instructor Dashboard"
-msgstr ""
+msgstr "返回教师面板"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid ""
 "If the Instructor Dashboard is missing functionality, please contact your PM"
 " to let us know."
-msgstr ""
+msgstr "如果教师面板界功能性缺失，请与课程负责人联系以告知我们。"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Psychometrics"
@@ -8215,7 +8216,7 @@ msgstr "请选择等级单元"
 msgid ""
 "Specify the extension due date and time (in UTC; please specify "
 "{format_string})."
-msgstr ""
+msgstr "明确截止日期、截止时间的宽限 (世界标准时间; 请明确 {format_string})."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Change due date for student"
@@ -8243,7 +8244,7 @@ msgstr "列出所有拥有到期扩展应用的学生"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Specify a student to see all of that student's extensions."
-msgstr ""
+msgstr "指定一个能查看所有学生延期状况的学生。"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "List date extensions for student"
@@ -8266,14 +8267,14 @@ msgstr "重置学生的结束时间"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "Revert to Legacy Dashboard"
-msgstr ""
+msgstr "回归传统界面"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid ""
 "We've changed the look and feel of the Instructor Dashboard. During this "
 "transition time, you can still access the old Instructor Dashboard by "
 "clicking the 'Revert to Legacy Dashboard' button above."
-msgstr ""
+msgstr "我们已经改变教师面板界面外观。值此更改时期，您依然可以通过点击'回归传统界面'按钮以访问旧教师面板界面。"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "section_display_name"
@@ -8552,17 +8553,17 @@ msgstr "显示邮件任务历史"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student Gradebook"
-msgstr ""
+msgstr "学生成绩单"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "Click here to view the gradebook for enrolled students. This feature is only"
 " visible to courses with a small number of total enrolled students."
-msgstr ""
+msgstr "点击此处查看学生成绩单。该功能只适用于查看该门课程的部分学生成绩。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Gradebook"
-msgstr ""
+msgstr "查看成绩单"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student-specific grade inspection"
