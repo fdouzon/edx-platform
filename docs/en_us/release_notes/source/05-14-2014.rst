@@ -94,7 +94,7 @@ edX Learning Management System
   username or email address, and then select **Reset Student Attempts**,
   **Delete Student State**, or **Rescore Student Submission**.
 
-* Previously when a student clicked **Run Code** for a MatLab problem, the
+* Previously, when a student clicked **Run Code** for a MatLab problem, the
   entire page was reloaded. This issue has been resolved so that now only the
   MatLab problem elements are reloaded. (LMS-2505)
 
