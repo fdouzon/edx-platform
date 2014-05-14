@@ -116,37 +116,6 @@ body.view-container .content-primary {
     border: 2px dashed $gray-l2;
   }
 
-  .vert-mod {
-
-    // min-height to allow drop when empty
-    .reorderable-container {
-      min-height: $baseline;
-    }
-
-    .vert {
-      position: relative;
-
-      .drag-handle {
-        display: none; // only show when vert is draggable
-        width: $baseline;
-        height: ($baseline*1.5);
-        margin: 0;
-        background: transparent url("../img/drag-handles.png") no-repeat scroll right center;
-      }
-    }
-
-    .is-draggable {
-
-      .xblock-header {
-        padding-right: ($baseline/4);
-      }
-
-      .drag-handle {
-        display: block;
-      }
-    }
-  }
-
   .wrapper-xblock {
     @extend %wrap-xblock;
 
@@ -164,6 +133,11 @@ body.view-container .content-primary {
       @include transition(all $tmg-f2 linear 0s);
       border: 1px solid $gray-l3;
       padding-bottom: $baseline;
+
+      // min-height to allow drop when empty
+      .reorderable-container {
+        min-height: $baseline;
+      }
 
       .xblock-header {
         @include ui-flexbox();
