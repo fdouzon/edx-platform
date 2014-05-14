@@ -6,7 +6,7 @@ define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext",
 
             xblockReady: function () {
                 XBlockView.prototype.xblockReady.call(this);
-                var verticalContainer = this.$(reorderableClass),
+                var reorderableContainer = this.$(reorderableClass),
                     alreadySortable = this.$('.ui-sortable'),
                     newParent,
                     oldParent,
@@ -14,7 +14,7 @@ define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext",
 
                 alreadySortable.sortable("destroy");
 
-                verticalContainer.sortable({
+                reorderableContainer.sortable({
                     handle: '.drag-handle',
 
                     stop: function (event, ui) {
@@ -71,7 +71,7 @@ define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext",
                     placeholder: 'component-placeholder',
                     forcePlaceholderSize: true,
                     axis: 'y',
-                    items: '> .vertical-element',
+                    items: '> .is-draggable',
                     connectWith: reorderableClass,
                     tolerance: "pointer"
 
