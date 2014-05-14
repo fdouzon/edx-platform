@@ -167,7 +167,7 @@ body.view-container .content-primary {
 
       .xblock-header {
         @include ui-flexbox();
-        margin-bottom: ($baseline/2);
+        margin-bottom: 0;
         border-bottom: none;
         background: none;
       }
