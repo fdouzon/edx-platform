@@ -1,10 +1,12 @@
 define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext", "js/views/feedback_notification"],
     function ($, _, XBlockView, ModuleUtils, gettext, NotificationView) {
+        var reorderableClass = '.reorderable-container';
+
         var ContainerView = XBlockView.extend({
 
             xblockReady: function () {
                 XBlockView.prototype.xblockReady.call(this);
-                var verticalContainer = this.$('.vertical-container'),
+                var verticalContainer = this.$(reorderableClass),
                     alreadySortable = this.$('.ui-sortable'),
                     newParent,
                     oldParent,
@@ -70,7 +72,7 @@ define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext",
                     forcePlaceholderSize: true,
                     axis: 'y',
                     items: '> .vertical-element',
-                    connectWith: ".vertical-container",
+                    connectWith: reorderableClass,
                     tolerance: "pointer"
 
                 });
@@ -110,7 +112,7 @@ define(["jquery", "underscore", "js/views/xblock", "js/utils/module", "gettext",
             },
 
             refresh: function() {
-                this.$('.vertical-container').sortable('refresh');
+                this.$(reorderableClass).sortable('refresh');
             }
         });
 

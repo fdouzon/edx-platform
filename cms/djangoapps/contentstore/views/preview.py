@@ -166,13 +166,11 @@ def _load_preview_module(request, descriptor):
     return descriptor
 
 
-def _is_xblock_parent_reorderable(xblock):
+def _is_xblock_reorderable(xblock, context):
     """
-    Returns true if the specified xblock has a direct parent that supports reordering.
+    Returns true if the specified xblock is in the set of reorderable xblocks.
     """
-    parent = get_parent_xblock(xblock)
-    # For now, only verticals support reordering
-    return parent and parent.category == 'vertical'
+    return xblock.location in context['reorderable_items']
 
 
 # pylint: disable=unused-argument
@@ -185,7 +183,7 @@ def _studio_wrap_xblock(xblock, view, frag, context, display_name_only=False):
         root_xblock = context.get('root_xblock')
         is_root = root_xblock and xblock.location == root_xblock.location
         locator = loc_mapper().translate_location(xblock.course_id, xblock.location, published=False)
-        is_parent_reorderable = not context['read_only'] and _is_xblock_parent_reorderable(xblock)
+        is_parent_reorderable = not context['read_only'] and _is_xblock_reorderable(xblock, context)
         template_context = {
             'xblock_context': context,
             'xblock': xblock,
