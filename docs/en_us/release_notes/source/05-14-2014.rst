@@ -23,34 +23,43 @@ The following documentation is available:
 
   Recent changes include: 
 
-  * An updated `Enrollment`_ section to reflect that usernames or email
+  * Updated the `Running Your Course`_ chapter to remove references to the “new
+    beta” Instructor Dashboard.
+
+  * Updated `Enrollment`_ section to reflect that usernames or email
     addresses can be used to batch enroll students.
 
-  * An updated `Grade and Answer Data`_ section that reflects new features on
+  * Updated `Grade and Answer Data`_ section to include new features on
     the problem Staff Debug viewer for rescoring, resetting attempts, and
-    deleting student state.
+    and deleting state for a specified student.
 
-  * An updated the `Staffing`_ section that explains the labeling differences
+  * Updated `Staffing`_ section to explain the labeling differences
     between Studio and the LMS with respect to course team roles.
 
-  * An updated `Assign Discussion Administration Roles`_ section to include a
-    note about course staff requiring explicit granting of discussion
-    administration roles.
+  * Updated `Assign Discussion Administration Roles`_ section to include a note
+    about course staff requiring explicit granting of discussion administration
+    roles.
 
-  * A new `VitalSource E-Reader Tool`_ section.
+  * New `VitalSource E-Reader Tool`_ section.
     
-  * Updated the `Add Files to a Course`_ section to include warnings about file
-    size.
+  * Updated  `Add Files to a Course`_ section to include warnings about
+    file size.
 
 
 * `edX Data Documentation`_
+  
+  Recent changes include:
+
+  Updated `Tracking Logs`_ section that includes events for course
+  enrollment activities: ``edx.course.enrollment.activated`` and
+  ``edx.course.enrollment.deactivated``.
   
 
 * `edX Platform Developer Documentation`_
 
    Recent changes include: 
 
-   * A new section on `Analytics`_ for developers.
+   A new section on `Analytics`_ for developers.
   
   
 * `edX XBlock Documentation`_
@@ -94,6 +103,18 @@ edX Learning Management System
 edX Analytics
 ****************
 
-* (AN-82, AN-126)
+* For researchers:
+  
+  There are two new events for course enrollment activities:
+  ``edx.course.enrollment.activated`` and ``edx.course.enrollment.deactivated``.
+  See `Tracking Logs`_ for more information
+
+  For developers:
+
+  There is a new event tracking API for instrumenting events to capture user
+  actions and other point-in-time activities in Studio and the edX LMS. See
+  `Analytics`_ for more information.
+
+  (AN-82, AN-126)
 
 .. include:: links.rst
