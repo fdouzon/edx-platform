@@ -71,7 +71,7 @@ class XBlockWrapper(PageObject):
     A PageObject representing a wrapper around an XBlock child shown on the Studio container page.
     """
     url = None
-    BODY_SELECTOR = '.wrapper-xblock'
+    BODY_SELECTOR = '.studio-xblock-wrapper'
     NAME_SELECTOR = '.header-details'
 
     def __init__(self, browser, locator):
