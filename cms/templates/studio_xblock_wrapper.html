@@ -3,19 +3,27 @@
 
 % if not is_root:
 % if is_parent_reorderable:
-<li class="vertical-element is-draggable studio-xblock-wrapper" data-locator="${locator}">
+<li class="studio-xblock-wrapper is-draggable" data-locator="${locator}">
 % else:
-<div class="studio-xblock-wrapper">
+<div class="studio-xblock-wrapper" data-locator="${locator}">
 % endif
-<div class="vert" data-id="${xblock.id}">
 
-<% section_class = "level-nesting" if xblock.has_children else "level-element" %>
-<section class="wrapper-xblock ${section_class}" data-locator="${locator}">
+<%
+section_class = "level-nesting" if xblock.has_children else "level-element"
+collapsible_class = "is-collapsible" if xblock.has_children else ""
+%>
+<section class="wrapper-xblock ${section_class} ${collapsible_class}">
 % endif
 
     <header class="xblock-header">
         <div class="header-details">
-            ${xblock.display_name_with_default | h}
+            % if xblock.has_children:
+            <a href="#" data-tooltip="${_('Expand or Collapse')}" class="action expand-collapse collapse">
+                <i class="icon-caret-down ui-toggle-expansion"></i>
+                <span class="sr">${_('Expand or Collapse')}</span>
+            </a>
+            % endif
+            <span>${xblock.display_name_with_default | h}</span>
         </div>
         <div class="header-actions">
             <ul class="actions-list">
@@ -53,7 +61,6 @@ ${content}
 
 % if not is_root:
 </section>
-</div>
 % if is_parent_reorderable:
 </li>
 % else:

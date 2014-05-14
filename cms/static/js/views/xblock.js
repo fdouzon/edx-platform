@@ -152,28 +152,6 @@ define(["jquery", "underscore", "js/views/baseview", "xblock/runtime.v1"],
                 }
                 // Return an already resolved promise for synchronous updates
                 return $.Deferred().resolve().promise();
-            },
-
-            /**
-             * Creates a new child xblock instance based upon the supplied xblock info.
-             * @param templateInfo The information about the desired template.
-             * @param parent_locator The locator for the xblock to parent into.
-             * @returns {*} A promise representing the creation of the new xblock. The
-             * newly created child locator will be passed to any promise callbacks.
-             */
-            create: function(templateInfo, parent_locator) {
-                var self = this,
-                    operation = $.Deferred();
-                templateInfo.parent_locator = parent_locator;
-                $.postJSON(this.model.urlRoot, templateInfo,
-                    function(data) {
-                        var childLocator = data.locator,
-                            xblockInfo = self.model;
-                        xblockInfo.set('id', childLocator);
-                        self.$el.data('locator', childLocator);
-                        operation.resolveWith(self, [childLocator]);
-                    });
-                return operation.promise();
             }
         });
 

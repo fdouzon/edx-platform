@@ -194,15 +194,22 @@ def _studio_wrap_xblock(xblock, view, frag, context, display_name_only=False):
             'is_root': is_root,
             'is_parent_reorderable': is_parent_reorderable,
         }
-        if xblock.category == 'vertical':
-            template = 'studio_vertical_wrapper.html'
-        elif not is_root and xblock.has_children:
-            template = 'container_xblock_component.html'
-        else:
+        if is_root or _studio_show_xblock_inline(xblock):
             template = 'studio_xblock_wrapper.html'
+        else:
+            template = 'container_xblock_component.html'
         html = render_to_string(template, template_context)
         frag = wrap_fragment(frag, html)
     return frag
+
+
+def _studio_show_xblock_inline(xblock):
+    """
+    Returns true if the xblock should be shown inline on the current page. If false, then
+    a link will be shown to the xblock instead.
+    """
+    # TODO: remove the special casing of verticals as being the only inline xblock
+    return not xblock.has_children or xblock.category == 'vertical'
 
 
 def get_preview_fragment(request, descriptor, context):

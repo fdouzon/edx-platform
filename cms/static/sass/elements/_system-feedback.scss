@@ -676,11 +676,6 @@
   // prompt showing
   &.prompt-is-shown {
 
-    .wrapper-view {
-      -webkit-filter: blur(($baseline/10)) grayscale(25%);
-      filter: blur(($baseline/10)) grayscale(25%);
-    }
-
     .wrapper-prompt.is-shown {
       visibility: visible;
       pointer-events: auto;
@@ -693,11 +688,6 @@
 
   // prompt hiding
   &.prompt-is-hiding {
-
-    .wrapper-view {
-      -webkit-filter: blur(($baseline/10)) grayscale(25%);
-      filter: blur(($baseline/10)) grayscale(25%);
-    }
 
     .wrapper-prompt {
 

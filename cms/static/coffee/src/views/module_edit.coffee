@@ -18,12 +18,15 @@ define ["jquery", "underscore", "gettext", "xblock/runtime.v1",
       XBlock.initializeBlock(@$el.find('.xblock-student_view'))
 
     createItem: (parent, payload, callback=->) ->
-      @create(payload, parent).done(
-          (locator) ->
-              @$el.data('locator', locator)
+      payload.parent_locator = parent
+      $.postJSON(
+          @model.urlRoot
+          payload
+          (data) =>
+              @model.set(id: data.locator)
+              @$el.data('locator', data.locator)
               @render()
-              callback(locator)
-      )
+      ).success(callback)
 
     loadView: (viewName, target, callback) ->
       if @model.id

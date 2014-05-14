@@ -193,39 +193,38 @@ def xblock_view_handler(request, package_id, view_name, tag=None, branch=None, v
 
     if 'application/json' in accept_header:
         store = get_modulestore(old_location)
-        component = store.get_item(old_location)
-        root_xblock = component
-        is_read_only = _is_xblock_read_only(component)
+        xblock = store.get_item(old_location)
+        is_read_only = _is_xblock_read_only(xblock)
 
         # wrap the generated fragment in the xmodule_editor div so that the javascript
         # can bind to it correctly
-        component.runtime.wrappers.append(partial(wrap_xblock, 'StudioRuntime'))
+        xblock.runtime.wrappers.append(partial(wrap_xblock, 'StudioRuntime'))
 
         if view_name == 'studio_view':
             try:
-                fragment = component.render('studio_view')
+                fragment = xblock.render('studio_view')
             # catch exceptions indiscriminately, since after this point they escape the
             # dungeon and surface as uneditable, unsaveable, and undeletable
             # component-goblins.
             except Exception as exc:                          # pylint: disable=w0703
-                log.debug("unable to render studio_view for %r", component, exc_info=True)
+                log.debug("unable to render studio_view for %r", xblock, exc_info=True)
                 fragment = Fragment(render_to_string('html_error.html', {'message': str(exc)}))
 
             # change not authored by requestor but by xblocks.
-            store.update_item(component, None)
+            store.update_item(xblock, None)
 
-        elif view_name == 'student_view' and component.has_children:
+        elif view_name == 'student_view' and xblock.has_children:
             context = {
                 'runtime_type': 'studio',
                 'container_view': False,
                 'read_only': is_read_only,
-                'root_xblock': root_xblock,
+                'root_xblock': xblock,
             }
             # For non-leaf xblocks on the unit page, show the special rendering
             # which links to the new container page.
             html = render_to_string('container_xblock_component.html', {
                 'xblock_context': context,
-                'xblock': root_xblock,
+                'xblock': xblock,
                 'locator': locator,
             })
             return JsonResponse({
@@ -242,10 +241,10 @@ def xblock_view_handler(request, package_id, view_name, tag=None, branch=None, v
                 'runtime_type': 'studio',
                 'container_view': is_container_view,
                 'read_only': is_read_only,
-                'root_xblock': root_xblock if (view_name == 'container_preview') else None,
+                'root_xblock': xblock if (view_name == 'container_preview') else None,
             }
 
-            fragment = get_preview_fragment(request, component, context)
+            fragment = get_preview_fragment(request, xblock, context)
             # For old-style pages (such as unit and static pages), wrap the preview with
             # the component div. Note that the container view recursively adds headers
             # into the preview fragment, so we don't want to add another header here.
@@ -253,7 +252,7 @@ def xblock_view_handler(request, package_id, view_name, tag=None, branch=None, v
                 fragment.content = render_to_string('component.html', {
                     'xblock_context': context,
                     'preview': fragment.content,
-                    'label': component.display_name or component.scope_ids.block_type,
+                    'label': xblock.display_name or xblock.scope_ids.block_type,
                 })
         else:
             raise Http404
